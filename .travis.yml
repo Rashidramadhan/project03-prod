@@ -30,3 +30,5 @@ after_success:
   - docker push rashidramadhan/udagram-api-user:v1
   - docker push rashidramadhan/udagram-frontend:v1
   - docker push rashidramadhan/udagram-reverseproxy:v1
+
+
