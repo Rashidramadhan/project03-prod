@@ -1,8 +1,13 @@
+
 export const config = {
   'username': process.env.POSTGRES_USERNAME,
   'password': process.env.POSTGRES_PASSWORD,
   'database': process.env.POSTGRES_DB,
   'host': process.env.POSTGRES_HOST,
+  'aws_access_key': process.env.ACCESS_KEY,
+  'secretAccessKey': process.env.SECRET_KEY,
+  'sessionToken': process.env.AWS_SESSION_TOKEN,
+
   'dialect': 'postgres',
   'aws_region': process.env.AWS_REGION,
   'aws_profile': process.env.AWS_PROFILE,
@@ -12,3 +17,5 @@ export const config = {
     'secret': process.env.JWT_SECRET,
   },
 };
+
+
